@@ -1,0 +1,119 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #c01010;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+#about-us {
+  padding: 20px;
+  background: linear-gradient(90deg, #c01010, #fff);
+  height: 500px;
+  width: 100%;
+}
+
+#services {
+  padding: 20px;
+  background: linear-gradient(90deg, #c01010, #fff);
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#services button {
+  background-color: #c01010;
+  border-radius: 50%;
+  border-color: #fff;
+  width: fit-content;
+  margin: 20px;
+}
+
+#services img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+#calculation {
+  padding: 20px;
+  background-color: #fff;
+  height: 60vh;
+  width: 100%;
+}
+
+#totalHarga {
+  text-align: center;
+}
+
+#contact-us {
+  background-color: #fff;
+  padding: 30px 0px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #c01010;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
